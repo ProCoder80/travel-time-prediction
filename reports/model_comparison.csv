@@ -1,5 +1,0 @@
-Model,CV_MAE_Mean,CV_MAE_Std,CV_RMSE_Mean,CV_R2_Mean,Test_MAE,Test_RMSE,Test_R2
-Linear Regression,4.26,0.59,6.21,0.082,3.94,5.77,0.143
-KNN Regressor,4.27,0.98,6.13,0.161,4.48,6.38,-0.049
-Random Forest,3.96,0.89,5.78,0.26,3.95,5.73,0.155
-AdaBoost,3.9,0.82,5.84,0.241,3.94,5.74,0.15
