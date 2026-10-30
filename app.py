@@ -118,9 +118,7 @@ tabs = st.tabs([
 ])
 
 
-# ==============================================================================
 # TAB 1: PREDICT TRAVEL TIME
-# ==============================================================================
 with tabs[0]:
     st.subheader("Predict Journey Duration")
     st.write("Enter your scheduled trip details to estimate travel time based on historical commuting patterns.")
@@ -214,9 +212,7 @@ with tabs[0]:
                 st.warning("⚠️ **Notice:** All historical trips to Home departed in the afternoon/evening (12:00 to 20:00). Predictions outside this window are estimates.")
 
 
-# ==============================================================================
 # TAB 2: SHOULD I LEAVE NOW? (DEPARTURE COMPARISON)
-# ==============================================================================
 with tabs[1]:
     st.subheader("Departure-Time Recommendation Engine")
     st.write("Compare different departure times within a time window to find the most optimal time to leave.")
@@ -322,9 +318,7 @@ with tabs[1]:
             st.caption("🛡️ **Disclaimer:** Recommendations are statistical estimates based on historical 2011–2012 commuter data, not live GPS or satellite feeds.")
 
 
-# ==============================================================================
 # TAB 3: MODEL COMPARISON
-# ==============================================================================
 with tabs[2]:
     st.subheader("Model Performance & Comparison")
     st.write("We implemented and compared exactly four core regression algorithms on the same test dataset:")
@@ -363,9 +357,7 @@ with tabs[2]:
     """)
 
 
-# ==============================================================================
 # TAB 4: DATASET & EDA
-# ==============================================================================
 with tabs[3]:
     st.subheader("Dataset Overview & Exploratory Data Analysis (EDA)")
 
@@ -405,9 +397,7 @@ with tabs[3]:
         st.info("Dataset file `travel_times.csv` loaded.")
 
 
-# ==============================================================================
 # TAB 5: ABOUT PROJECT
-# ==============================================================================
 with tabs[4]:
     st.subheader("About This Project")
     st.markdown("""
